@@ -1,0 +1,18 @@
+Spring Boot Application README
+
+ Overview
+This Spring Boot application is designed to provide a basic RESTful API for managing assistants. It utilizes a database named "assistants" and runs on port 9091. The application follows a typical Spring Boot project structure, with packages for model, repository, exceptions, and controllers.
+
+ Database Configuration
+-->Database Name: assistants
+
+Server Configuration
+-->Server Port: 9091
+
+Project Structure
+The project follows the following package structure:
+
+-->model: Contains the Assistant entity class.
+-->repository: Contains the AssistantRepository interface for database interaction.
+-->exceptions: Contains the ResourceNotFoundException class for handling resource not found errors.
+-->controller: Contains the AssistantController class for defining RESTful endpoints.
